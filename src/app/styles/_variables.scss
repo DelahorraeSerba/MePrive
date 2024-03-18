@@ -4,3 +4,13 @@ $color_primary_one: #36BF98;
 $color_primary_two: #F3695C;
 $color_primary_three: #F2B5A7;
 
+@mixin centerflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin centerGrid{
+    display: grid;
+    place-items: center;
+}

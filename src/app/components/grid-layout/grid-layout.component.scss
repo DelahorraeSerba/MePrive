@@ -1,5 +1,12 @@
+@import "../../styles/variables";
+
 .mat-grid-tile{
     border-radius: 25px;
     color: white !important;
     // background-image: url(../../../assets/Images/one.jpg);
+}
+
+h1{
+    margin-top: 5rem;
+    @include centerGrid;
 }
