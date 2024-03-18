@@ -1,9 +1,6 @@
-<ng-container id="pepe">
-    <mat-grid-list cols="4" rowHeight="25rem">
-        <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
-            [style.background-image]="tile.image"
-            [style.background-size]="tile.size">
-            {{tile.text}}
-        </mat-grid-tile>
-    </mat-grid-list>
-</ng-container>
+<mat-grid-list cols="4" rowHeight="25rem">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+        [style.background-image]="tile.image" [style.background-size]="tile.size">
+        {{tile.text}}
+    </mat-grid-tile>
+</mat-grid-list>
