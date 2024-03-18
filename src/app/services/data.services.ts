@@ -10,6 +10,6 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getRestaurantData(): Observable<any> {
-    return this.http.get<any>('../mock/randomplates.mock.json');
+    return this.http.get<any>('../../assets/mock/randomplates.mock.json');
   }
 }
