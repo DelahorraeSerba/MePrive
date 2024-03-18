@@ -9,6 +9,6 @@ import {MatListModule} from '@angular/material/list';
 })
 export class DaysComponent {
   daysOfWeek: string[] = [
-    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
+    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
   ];
 }
