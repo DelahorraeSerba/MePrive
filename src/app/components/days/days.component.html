@@ -1,10 +1,10 @@
-<ng-container *ngFor="let day of daysOfWeek" class="dayweek">
+<ng-container *ngFor="let day of daysOfWeek; let i = index" class="dayweek">
     <h3>{{ day }}</h3>
     <mat-list>
-        <mat-list-item *ngFor="let dish of restaurantData?.dishes">
+        <mat-list-item *ngFor="let dish of getDishesForDay(i)">
             <span matListItemTitle>{{ dish.name }}</span>
             <span matListItemLine>{{ dish.description }}</span>
-            <span matListItemLine>Price: ${{ dish.price }}</span>
+            <span matListItemLine>Precio :{{ dish.price }}€</span>
         </mat-list-item>
     </mat-list>
 </ng-container>

@@ -10,12 +10,14 @@ import { DaysComponent } from './components/days/days.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GridLayoutComponent,
-    DaysComponent
+    DaysComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

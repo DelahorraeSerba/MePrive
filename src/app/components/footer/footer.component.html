@@ -1,0 +1,14 @@
+<mat-grid-list cols="3" rowHeight="10rem">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+        [style.background]="tile.color">
+        <div class="footer_content">
+            <h3>{{tile.text}}</h3>
+            <mat-list *ngIf="tile.items">
+                <mat-list-item *ngFor="let item of tile.items">
+                    {{item}}
+                </mat-list-item>
+            </mat-list>
+            <img *ngIf="tile.imageUrl" [src]="tile.imageUrl" alt="Ubicación" width="320rem">
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>

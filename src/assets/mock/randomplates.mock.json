@@ -1,56 +1,80 @@
 {
-    "restaurant": "Nombre del Restaurante",
-    "dishes": [
-      {
-        "name": "Paella",
-        "description": "Arroz español con mariscos y pollo.",
-        "price": 15.99
-      },
-      {
-        "name": "Tacos al Pastor",
-        "description": "Tacos mexicanos con carne de cerdo marinada en adobo.",
-        "price": 12.99
-      },
-      {
-        "name": "Ceviche",
-        "description": "Plato peruano de pescado marinado en jugo de limón.",
-        "price": 14.99
-      },
-      {
-        "name": "Lomo Saltado",
-        "description": "Plato peruano de carne salteada con cebolla, tomate y papas fritas.",
-        "price": 16.99
-      },
-      {
-        "name": "Sushi Variado",
-        "description": "Selección de sushi japonés con pescado fresco y arroz.",
-        "price": 18.99
-      },
-      {
-        "name": "Bife de Chorizo",
-        "description": "Corte de carne argentina asada a la parrilla.",
-        "price": 22.99
-      },
-      {
-        "name": "Fish and Chips",
-        "description": "Plato británico de pescado frito y patatas fritas.",
-        "price": 13.99
-      },
-      {
-        "name": "Chicken Teriyaki",
-        "description": "Pollo japonés a la parrilla con salsa teriyaki.",
-        "price": 17.99
-      },
-      {
-        "name": "Ravioli de Espinacas y Ricota",
-        "description": "Pasta italiana rellena de espinacas y queso ricota.",
-        "price": 14.99
-      },
-      {
-        "name": "Hamburguesa Clásica",
-        "description": "Hamburguesa de carne de res con lechuga, tomate y cebolla.",
-        "price": 11.99
-      }
-    ]
-  }
-  
+  "restaurant": "Nombre del Restaurante",
+  "dishes": [
+    {
+      "name": "Paella",
+      "description": "Arroz español con mariscos y pollo.",
+      "price": 15.99
+    },
+    {
+      "name": "Tacos al Pastor",
+      "description": "Tacos mexicanos con carne de cerdo marinada en adobo.",
+      "price": 12.99
+    },
+    {
+      "name": "Ceviche",
+      "description": "Plato peruano de pescado marinado en jugo de limón.",
+      "price": 14.99
+    },
+    {
+      "name": "Lomo Saltado",
+      "description": "Plato peruano de carne salteada con cebolla, tomate y papas fritas.",
+      "price": 16.99
+    },
+    {
+      "name": "Sushi Variado",
+      "description": "Selección de sushi japonés con pescado fresco y arroz.",
+      "price": 18.99
+    },
+    {
+      "name": "Bife de Chorizo",
+      "description": "Corte de carne argentina asada a la parrilla.",
+      "price": 22.99
+    },
+    {
+      "name": "Fish and Chips",
+      "description": "Plato británico de pescado frito y patatas fritas.",
+      "price": 13.99
+    },
+    {
+      "name": "Chicken Teriyaki",
+      "description": "Pollo japonés a la parrilla con salsa teriyaki.",
+      "price": 17.99
+    },
+    {
+      "name": "Ravioli de Espinacas y Ricota",
+      "description": "Pasta italiana rellena de espinacas y queso ricota.",
+      "price": 14.99
+    },
+    {
+      "name": "Hamburguesa Clásica",
+      "description": "Hamburguesa de carne de res con lechuga, tomate y cebolla.",
+      "price": 11.99
+    },
+    {
+      "name": "Enchiladas Suizas",
+      "description": "Tortillas de maíz rellenas de pollo, cubiertas de salsa verde y queso.",
+      "price": 14.99
+    },
+    {
+      "name": "Pasta Alfredo",
+      "description": "Pasta italiana en una salsa cremosa de queso parmesano.",
+      "price": 12.99
+    },
+    {
+      "name": "Moussaka",
+      "description": "Plato griego de berenjenas, carne picada y salsa bechamel.",
+      "price": 16.99
+    },
+    {
+      "name": "Pad Thai",
+      "description": "Plato tailandés de fideos de arroz salteados con camarones y tofu.",
+      "price": 15.99
+    },
+    {
+      "name": "Lasagna Bolognese",
+      "description": "Plato italiano de láminas de pasta intercaladas con carne y salsa de tomate.",
+      "price": 17.99
+    }
+  ]
+}
