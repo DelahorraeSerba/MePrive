@@ -10,3 +10,8 @@ h1{
     margin-top: 5rem;
     @include centerGrid;
 }
+
+h2{
+    // color: $color_background_2;
+    display: none;
+}

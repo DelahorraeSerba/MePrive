@@ -1,6 +1,5 @@
 <mat-grid-list cols="3" rowHeight="10rem">
-    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
-        [style.background]="tile.color">
+    <mat-grid-tile class="custom-tile" *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows">
         <div class="footer_content">
             <h3>{{tile.text}}</h3>
             <mat-list *ngIf="tile.items">
