@@ -11,13 +11,21 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { LogINComponent } from './pages/log-in/log-in.component';
+import { AdminPageComponent } from './pages/admin-page/admin-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GridLayoutComponent,
     DaysComponent,
-    FooterComponent
+    FooterComponent,
+    HomePageComponent,
+    NotFoundComponent,
+    LogINComponent,
+    AdminPageComponent
   ],
   imports: [
     BrowserModule,

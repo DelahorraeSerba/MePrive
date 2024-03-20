@@ -1,9 +1,4 @@
 @import "../app/styles/variables";
-.contento {
-    margin-top: 7rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
 
 .toolbar {
     position: absolute;
@@ -19,14 +14,6 @@
 
 .toolbar img {
     margin: 0 16px;
-}
-
-.containerDays{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    @include centerGrid;
 }
 
 footer{

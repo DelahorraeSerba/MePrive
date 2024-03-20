@@ -1,16 +1,12 @@
-<!-- Toolbar -->
+<!-- Header -->
 <div class="toolbar" role="banner">
   <img width="80" alt="MePrivé logo" src="../assets/Images/prive-eventos-catering-logo_bqnwfw.webp" />
 </div>
+<!-- Main -->
 
-<div class="contento" role="main">
-  <app-grid-layout style="width: 100%;"></app-grid-layout>
-</div>
-<div class="containerDays">
-  <app-days></app-days>
-</div>
+<router-outlet></router-outlet>
 
+<!-- Footer -->
 <footer>
   <app-footer></app-footer>
 </footer>
-<router-outlet></router-outlet>

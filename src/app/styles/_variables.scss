@@ -16,3 +16,9 @@ $color_background_2: #F0ECE5;
     display: grid;
     place-items: center;
 }
+
+@mixin main{
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
