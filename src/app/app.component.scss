@@ -24,6 +24,9 @@
 .containerDays{
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    @include centerGrid;
 }
 
 footer{

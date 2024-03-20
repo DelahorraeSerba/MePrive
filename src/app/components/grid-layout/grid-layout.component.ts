@@ -19,6 +19,6 @@ export class GridLayoutComponent {
     {text: '', cols: 2, rows: 2, image: 'url(../../../assets/Images/one.webp)', size: "cover"},
     {text: '', cols: 1, rows: 2, image: 'url(../../../assets/Images/two.webp)', size: "cover"},
     {text: '', cols: 1, rows: 1, image: 'url(../../../assets/Images/three.webp)', size: "cover"},
-    {text: 'Menú', cols: 1, rows: 1, image: 'url(../../../assets/Images/four.webp)', size: "cover"},
+    {text: '', cols: 1, rows: 1, image: 'url(../../../assets/Images/four.webp)', size: "cover"},
   ];
 }

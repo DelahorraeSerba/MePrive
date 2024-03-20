@@ -7,7 +7,9 @@
                     {{item}}
                 </mat-list-item>
             </mat-list>
-            <img *ngIf="tile.imageUrl" [src]="tile.imageUrl" alt="Ubicación" width="320rem">
+            <a *ngIf="tile.imageUrl" [href]="tile.mapUrl" target="_blank">
+                <img [src]="tile.imageUrl" alt="Ubicación" width="320rem">
+            </a>
         </div>
     </mat-grid-tile>
 </mat-grid-list>
