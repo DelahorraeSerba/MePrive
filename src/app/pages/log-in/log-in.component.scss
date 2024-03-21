@@ -2,4 +2,26 @@
 
 .main{
     @include main;
+    @include centerGrid;
+    height: 70%
+}
+h1{
+    @include centerGrid;
+}
+.login{
+    background-color: white;
+    border-radius: 25px;
+    max-width: fit-content;
+    margin: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.email mat-form-field + mat-form-field {
+    margin-left: 8px;
+}
+#button{
+    display: flex;
+    justify-content: right;
 }

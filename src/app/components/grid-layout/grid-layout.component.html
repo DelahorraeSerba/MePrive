@@ -1,6 +1,6 @@
 <mat-grid-list cols="4" rowHeight="1.15:1">
     <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
-        [style.background-image]="tile.image" [style.background-size]="tile.size">
+        [style.background-image]="tile.image" [style.background-size]="tile.size" [routerLink]="tile.link">
         {{tile.text}}
     </mat-grid-tile>
 </mat-grid-list>
