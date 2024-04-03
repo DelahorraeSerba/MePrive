@@ -20,6 +20,17 @@ import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { SelectservesComponent } from './pages/selectserves/selectserves.component';
+import { SelectServesDayComponent } from './pages/select-serves-day/select-serves-day.component';
+import { DragservedaysComponent } from './components/dragservedays/dragservedays.component';
+import {
+  CdkDragDrop,
+  moveItemInArray,
+  transferArrayItem,
+  CdkDrag,
+  CdkDropList,
+} from '@angular/cdk/drag-drop';
+import { NgFor } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,7 +41,10 @@ import {MatButtonModule} from '@angular/material/button';
     HomePageComponent,
     NotFoundComponent,
     LogINComponent,
-    AdminPageComponent
+    AdminPageComponent,
+    SelectservesComponent,
+    SelectServesDayComponent,
+    DragservedaysComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +58,10 @@ import {MatButtonModule} from '@angular/material/button';
     FormsModule,
     ReactiveFormsModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    CdkDropList,
+    NgFor,
+    CdkDrag
   ],
   providers: [],
   bootstrap: [AppComponent]

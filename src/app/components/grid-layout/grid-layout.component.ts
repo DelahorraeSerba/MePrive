@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MatGridListModule } from '@angular/material/grid-list';
 
 export interface Tile {
   image: string; // Background image of the grid-layout element

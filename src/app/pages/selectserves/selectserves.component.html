@@ -1,0 +1,6 @@
+<div class="main">
+    <h2>Elije el día que quieres editar</h2>
+    <mat-grid-list cols="5" rowHeight="2:1">
+        <button mat-raised-button class="buttonmenu" *ngFor="let day of daysOfWeek" [routerLink]="'/selectserveday'">{{day}}</button>
+    </mat-grid-list>
+</div>

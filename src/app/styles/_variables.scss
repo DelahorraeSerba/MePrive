@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Mono+One&display=swap');
+
+
 // Colors
 $color_background: #FFF6F5;
 $color_primary_one: #36BF98;
@@ -6,18 +9,38 @@ $color_primary_two_high_contrast: #B34B41;
 $color_primary_three: #F2B5A7;
 $color_background_2: #F0ECE5;
 
-@mixin centerflex{
+//Fonts
+@mixin kanit {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin playfair {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+}
+
+@mixin rubik{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin centerflex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-@mixin centerGrid{
+@mixin centerGrid {
     display: grid;
     place-items: center;
 }
 
-@mixin main{
+@mixin main {
     margin-top: 7rem;
     margin-left: 3rem;
     margin-right: 3rem;
