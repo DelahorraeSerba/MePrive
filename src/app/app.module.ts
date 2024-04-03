@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GridLayoutComponent } from './components/grid-layout/grid-layout.component';
+import { DemoGridComponent} from './components/grid-layout/grid-layout.component';
 import { DaysComponent } from './components/days/days.component';
 
 import {MatGridListModule} from '@angular/material/grid-list';
@@ -35,7 +35,6 @@ import { NgFor } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
-    GridLayoutComponent,
     DaysComponent,
     FooterComponent,
     HomePageComponent,
@@ -44,7 +43,8 @@ import { NgFor } from '@angular/common';
     AdminPageComponent,
     SelectservesComponent,
     SelectServesDayComponent,
-    DragservedaysComponent
+    DragservedaysComponent,
+    DemoGridComponent
   ],
   imports: [
     BrowserModule,

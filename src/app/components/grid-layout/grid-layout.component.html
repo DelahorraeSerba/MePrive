@@ -1,4 +1,4 @@
-<mat-grid-list cols="4" rowHeight="1.15:1">
+<mat-grid-list [cols]="mybreakpoint" rowHeight="1.15:1" (window:resize)="handleSize($event)">
     <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
         [style.background-image]="tile.image" [style.background-size]="tile.size" [routerLink]="tile.link">
         {{tile.text}}
