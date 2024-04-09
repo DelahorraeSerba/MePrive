@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+#firstbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: $color_primary_one;
+}
+
+.icon-image {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spanish-icon {
+  background-image: url('../../../assets/Images/espana.webp'); 
+}
+.english-icon {
+  background-image: url('../../../assets/Images/estados-unidos.webp');
+}

@@ -1,0 +1,13 @@
+<button id="firstbutton" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>menu</mat-icon>
+</button>
+<mat-menu #menu="matMenu" yPosition="above">
+  <button mat-menu-item>
+    <span class="icon-image spanish-icon"></span>
+    <span>Español</span>
+  </button>
+  <button mat-menu-item>
+    <span class="icon-image english-icon"></span>
+    <span>English</span>
+  </button>
+</mat-menu>

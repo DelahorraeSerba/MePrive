@@ -24,14 +24,14 @@ import { SelectservesComponent } from './pages/selectserves/selectserves.compone
 import { SelectServesDayComponent } from './pages/select-serves-day/select-serves-day.component';
 import { DragservedaysComponent } from './components/dragservedays/dragservedays.component';
 import {
-  CdkDragDrop,
-  moveItemInArray,
-  transferArrayItem,
   CdkDrag,
   CdkDropList,
 } from '@angular/cdk/drag-drop';
 import { NgFor } from '@angular/common';
-
+import { ChangelanguageComponent } from '../app/components/changelanguage/changelanguage.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +44,8 @@ import { NgFor } from '@angular/common';
     SelectservesComponent,
     SelectServesDayComponent,
     DragservedaysComponent,
-    DemoGridComponent
+    DemoGridComponent,
+    ChangelanguageComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +62,11 @@ import { NgFor } from '@angular/common';
     MatIconModule,
     CdkDropList,
     NgFor,
-    CdkDrag
+    CdkDrag,
+    MatIconModule,
+    MatMenuModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
