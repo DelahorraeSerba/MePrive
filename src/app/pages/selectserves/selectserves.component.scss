@@ -2,6 +2,8 @@
 
 .main{
     @include main;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
     @include centerGrid;
 }
 

@@ -2,7 +2,7 @@
     <div class="login">
         <h1>Inicia sesión</h1>
         <div class="email">
-            <mat-form-field>
+            <mat-form-field class="emailFitContent">
                 <mat-label>Introduce tu email</mat-label>
                 <input matInput placeholder="pat@example.com" [formControl]="email" required>
                 <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
